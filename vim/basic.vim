@@ -138,4 +138,7 @@ set ai "Auto indent
 set si "Smart indent
 set wrap "Wrap lines
 
+set runtimepath+=~/.vim_runtime
 
+source ~/.vim_runtime/package.vim
+source ~/.vim_runtime/theme.vim
