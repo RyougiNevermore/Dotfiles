@@ -40,6 +40,9 @@ command W w !sudo tee % > /dev/null
 " Turn on the Wild menu
 set wildmenu
 
+" Enable syntax highlighting
+syntax enable
+
 " Ignore compiled files
 set wildignore=*.o,*~,*.pyc
 if has("win16") || has("win32")
