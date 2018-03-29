@@ -3,13 +3,6 @@
 	name = Ryougi Nevermore
 	email = ryougi.nevermore@hotmail.com
 
-[credential "https://github.com"]
-
-    username = ryougi.nevermore
-
-    # Each credential is stored on its own line as a URL like https://user:pass@example.com
-	helper = store --file=~/.git-credentials-github
-
 [github]
 
 	user = ryougi.nevermore
@@ -146,8 +139,7 @@
 
 [commit]
 
-    template = ~/.gitmessage
-
+	template = ~/.gitmessage
 
 [diff]
 
