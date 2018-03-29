@@ -1,32 +1,16 @@
-# <type>(<scope>): <subject>
+
+
+# 50-character subject line, start with <commit type>, like [NEW] [UPDATE] [FIX BUG:$NO] [FIX IUSSE:$NO] [CLEAN]
 #
-# <body>
+# 72-character wrapped longer description. This should answer:
 #
-# <footer>
+# * Why was this change necessary?
+# * How does it address the problem?
+# * Are there any side effects?
 #
-# --- COMMIT END ---
-# Explanation
-#     Type will be used to show the commit type
-#     Scope is just the scope of the change. Something like (admin) or (teacher).
-#     Subject should use impertivite tone and say what you did.
-#     Body should go into detail about changes made.
-#     Footer should contain any JIRA (or other tool) issue references or actions.
+# Include a link to the ticket, if any.
 #
-#---------------------
-# Type can be 
-#     feat     (new feature)
-#     fix      (bug fix)
-#     refactor (refactoring production code)
-#     style    (formatting, missing semi colons, etc; no code change)
-#     docs     (changes to documentation)
-#     test     (adding or refactoring tests; no production code change)
-#     chore    (updating grunt tasks etc; no production code change)
-# --------------------
-# Remember to
-#     Capitalize the subject line
-#     Use the imperative mood in the subject line
-#     Do not end the subject line with a period
-#     Separate subject from body with a blank line
-#     Use the body to explain what and why vs. how
-#     Can use multiple lines with "-" for bullet points in body
-# --------------------
+# Add co-authors if you worked on this code with others:
+#
+# Co-authored-by: Full Name <email@example.com>
+# Co-authored-by: Full Name <email@example.com>
