@@ -30,6 +30,58 @@ Plugin 'VundleVim/Vundle.vim'
 
 Plugin 'dracula/vim'
 
+Plugin 'jlanzarotta/bufexplorer'
+
+Plugin 'yegappan/mru'
+
+Plugin 'maxbrunsfeld/vim-yankstack'
+
+Plugin 'ctrlpvim/ctrlp.vim'
+
+Plugin 'mattn/emmet-vim'
+
+Plugin 'honza/vim-snippets'
+
+Plugin 'mhinz/vim-grepper'
+
+Plugin 'mileszs/ack.vim'
+
+Plugin 'scrooloose/nerdtree'
+
+Plugin 'scrooloose/nerdcommenter'
+
+Plugin 'terryma/vim-multiple-cursors'
+
+Plugin 'tpope/vim-surround'
+
+Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
+
+Plugin 'junegunn/goyo.vim'
+
+Plugin 'w0rp/ale'
+
+Plugin 'godlygeek/tabular'
+
+Plugin 'justinmk/vim-sneak'
+
+Plugin 'osyo-manga/vim-anzu'
+
+Plugin 'danro/rename.vim'
+
+Plugin 'tpope/vim-git'
+Plugin 'airblade/vim-gitgutter'
+Plugin 'chrisbra/vim-diff-enhanced'
+
+Plugin 'python-mode/python-mode'
+
+Plugin 'pangloss/vim-javascript'
+
+Plugin 'hecal3/vim-leader-guide'
+
+Plugin 'fatih/vim-go'
+
+
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required

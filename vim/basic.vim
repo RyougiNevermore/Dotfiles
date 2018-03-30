@@ -145,3 +145,26 @@ set runtimepath+=~/.vim_runtime
 
 source ~/.vim_runtime/package.vim
 source ~/.vim_runtime/theme.vim
+source ~/.vim_runtime/extended.vim
+
+source ~/.vim_runtime/airline.vim
+source ~/.vim_runtime/anzu.vim
+source ~/.vim_runtime/bufexplorer.vim
+source ~/.vim_runtime/ctrlp.vim
+source ~/.vim_runtime/emmet.vim
+source ~/.vim_runtime/git.vim 
+source ~/.vim_runtime/go.vim
+source ~/.vim_runtime/goyo.vim
+source ~/.vim_runtime/javascript.vim
+source ~/.vim_runtime/leader-key.vim 
+source ~/.vim_runtime/mru.vim
+source ~/.vim_runtime/multiple-cursors.vim
+source ~/.vim_runtime/nerdcommenter.vim
+source ~/.vim_runtime/nerdtree.vim
+source ~/.vim_runtime/python.vim
+source ~/.vim_runtime/search.vim
+source ~/.vim_runtime/sneak.vim
+source ~/.vim_runtime/snippets.vim
+source ~/.vim_runtime/surround.vim
+source ~/.vim_runtime/syntastic.vim
+source ~/.vim_runtime/yankstack.vim
