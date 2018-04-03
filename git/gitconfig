@@ -7,7 +7,7 @@
 
 	user = ryougi.nevermore
 
-[color]
+[core]
 
     editor = vim
     excludesfile = ~/.gitignore
