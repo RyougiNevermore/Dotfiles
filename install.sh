@@ -47,9 +47,7 @@ function doIt() {
             vim_src="$dofiles_src/vim"
             echo "install vim dot files, link source = $vim_src"
 
-            linkFile "$vim_src/basic.vim" "$HOME/.vimrc"
-
-            linkFile "$vim_src/runtime" "$HOME/.vim_runtime"
+            linkFile "$vim_src/vimrc_one.vim" "$HOME/.vimrc"
 
             echo "install vim dot files succ! NOTE: see README.md to setup Vim."
 
