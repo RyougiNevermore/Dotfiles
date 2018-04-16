@@ -95,6 +95,7 @@ set tm=500
 
 " Properly disable sound on errors on MacVim
 if has("gui_macvim")
+    set fuoptions=maxvert,maxhorz
     autocmd GUIEnter * set vb t_vb=
 endif
 
@@ -106,6 +107,7 @@ endif
 if has("gui_running")
     set guioptions-=T
     set guioptions-=e
+    set guioptions-=r
     set t_Co=256
     set guitablabel=%M\ %t
 endif
