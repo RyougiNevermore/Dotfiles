@@ -13,10 +13,11 @@ alias -- -="cd -"
 # Shortcuts
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
-alias wp="cd ~/Workspace"
+alias ws="cd ~/Workspace"
+alias ws_go="cd $GOPATH"
 alias g="git"
 alias vi='vim'
-
+alias vim='gvim'
 
 # Enable aliases to be sudo’ed
 alias sudo='sudo '
@@ -33,4 +34,5 @@ alias path='echo -e ${PATH//:/\\n}'
 # source zshrc
 alias zshrc='vim ~/.zshrc'
 alias zshrc_source='source ~/.zshrc'
- 
+
+
