@@ -51,7 +51,8 @@
 
 	# Commit all changes
 	ca = !git add -A && git commit -av
-
+        caz = !git add -A && git cz
+        
         # Checkout 
         co = checkout 
 
