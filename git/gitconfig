@@ -51,10 +51,10 @@
 
 	# Commit all changes
 	ca = !git add -A && git commit -av
-        caz = !git add -A && git cz
+    caz = !git add -A && git cz
         
-        # Checkout 
-        co = checkout 
+    # Checkout 
+    co = checkout 
 
 	# Switch to a branch, creating it if necessary
 	go = "!f() { git checkout -b \"$1\" 2> /dev/null || git checkout \"$1\"; }; f"
@@ -113,6 +113,7 @@
 			git commit --amend -m \"$(git log -1 --pretty=%B)\n\nCloses #$1.\"; \
 		fi \
 	}; f"
+
 
 [apply]
 
@@ -180,10 +181,15 @@
 [url "git://github.com/"]
 
 	insteadOf = "github:"
+
+[url "git@xgit.italki.com:"]
+	
+	insteadOf = http://xgit.italki.com/
+
 [filter "lfs"]
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
 	required = true
-[url "git@xgit.italki.com:"]
-	insteadOf = http://xgit.italki.com/
+
+
