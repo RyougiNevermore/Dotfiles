@@ -32,6 +32,7 @@
 
 	# View abbreviated SHA, description, and history graph of the latest 20 commits
 	l = log --pretty=oneline -n 20 --graph --abbrev-commit
+	ll = log --graph
 
 	# View the current working tree status using the short format
 	s = status -s
@@ -178,3 +179,10 @@
 [url "git://github.com/"]
 
 	insteadOf = "github:"
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[url "git@xgit.italki.com:"]
+	insteadOf = http://xgit.italki.com/
